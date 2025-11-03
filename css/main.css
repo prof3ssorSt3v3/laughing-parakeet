@@ -1,0 +1,15 @@
+:root {
+  --font-primary: 'Noto Sans', sans-serif;
+  --font-secondary: 'Noto Serif', serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vw;
+  font-family: var(--font-primary);
+}
+h1,
+h2 {
+  font-family: var(--font-secondary);
+}
