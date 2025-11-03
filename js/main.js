@@ -2,11 +2,13 @@
 URL
   hash, host, hostname, protocol, origin, href, port, pathname, searchParams
 URLSearchParams
-  get() set() delete() has() entries() size
+  get() set() append() delete() has() entries() size
 Request
   GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD methods
 Headers
+  get() set() append() delete() has() entries() 
 Response
+  .ok .status .headers, .statusText, .url, .type (basic cors error opaque)
   .json()
   .text()
   .blob()
