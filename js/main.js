@@ -24,4 +24,11 @@ function init() {
 
 function getData() {
   //retrieve an array of data from the API
+  // fetch(Request)
+  // Request(URL, options)
+  // URL (string)
+  // options (settings and Headers)
+  // Headers (name: value) pairs
+  // Response (body and Headers)
+  // body: string, FormData, Blob, URLSearchParams, ArrayBuffer, TypedArray, ReadableStream
 }
