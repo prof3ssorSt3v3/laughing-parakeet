@@ -1,8 +1,15 @@
 /*
 URL
+  hash, host, hostname, protocol, origin, href, port, pathname, searchParams
 URLSearchParams
+  get() set() delete() has() entries() size
 Request
+  GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD methods
+Headers
 Response
+  .json()
+  .text()
+  .blob()
 */
 
 document.addEventListener('DOMContentLoaded', init);
