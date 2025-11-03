@@ -16,7 +16,7 @@ Response
 
 document.addEventListener('DOMContentLoaded', init);
 
-const BASEURL = 'https://jsonplaceholder.typicode.com/';
+const BASEURL = 'https://dummyjson.com/';
 
 function init() {
   //when the html has been read
